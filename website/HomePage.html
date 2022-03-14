@@ -9,10 +9,14 @@
 
     </script>
     <style>
+        #title{
+            width: 100%;
+            content :"";
+            background-color: aquamarine;
+        }
         body {
             margin:0%;
             padding:0%; 
-            background-color :rgb(255, 255, 255) ;
             color : rgb(0, 0, 0);
             font-family: Tahoma;
             max-width: 100%;
@@ -25,31 +29,31 @@
             z-index: -1;
             margin-left: 700px;
             object-fit: cover;
-            
+           background-color: aquamarine;
             padding-left: 28%;
         }
 
         #pills {
             position :absolute;
             z-index: -1;
-            left: -500px;
+            left: -200px;
+            height: 600px;
+            background-color: aquamarine;
         }
         h1{
             width : fit-content ;
-          /*  background-color:rgb(82, 149, 151); */
-            
-            border-bottom: 4px solid rgb(0, 0, 0);
+            border-bottom: 4px solid rgb(255,255,255);
             position: relative;
             top : 0%;
-            
+           /*background-color: aquamarine;*/ 
             margin-top: 0%;
-            margin-bottom: 20%;
+            margin-bottom: 24%;
             padding-top: 14%;
             padding-bottom : 0%;
             font-family : Tahoma, sans-serif;
             font-size: 40px;
             height : 50%;
-            color : rgb(0, 0, 0);
+            color : white;
         }
         footer{
             padding-top : 27%;
@@ -78,7 +82,7 @@
             border-top: none;
             
         }
-        div div a::after {
+        #documentation div a::after {
             content: "";
             position: relative;
             display: block;
@@ -89,7 +93,7 @@
             transition: transform 0.3s ease-in-out;
         }
 
-        div div a:hover::after {
+        #documentation div a:hover::after {
              transform: scaleX(1);
             }
 
@@ -104,7 +108,9 @@
         <img id="phone" src="phone-notification.png" alt="bannière" srcset="">
         <img id="pills" src="pills.png" alt="pills" srcset="">
         <center> 
+            <div class="title">
             <h1>Pill Schedule</h1>  
+            </div>
             <p>This website shows the process behind the application. You have access to diagrams and scheme to understand how we create the project.</p>
         </center> 
         <div id="description">
@@ -123,10 +129,14 @@
                 <a href="Scope.html">&#x1F4C4<span>Scope of the project</span></a> 
             </div>
             <div>
-                <a href="pdftest.html" target="_blank">📁<span>Lien de fou t'as capté</span></a>
+                <a href="Use case Diagram.pdf#toolbar=0" target="_blank">📂<span>Use case diagram</span></a>
             </div>
-            
-
+            <div>
+                <a href="Class diagram.pdf#toolbar=0" target="_blank">📁<span>Class diagram</span></a>
+            </div>
+            <div>
+                <a href="Sequential Flows.pdf#toolbar=0" target="_blank">➡️<span>Sequential Flows</span></a>
+            </div>
         </div>
        
         
