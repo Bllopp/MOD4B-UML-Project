@@ -12,7 +12,7 @@
         #title{
             width: 100%;
             content :"";
-            background-color: aquamarine;
+            background-color: rgb(255, 255, 255);
         }
         body {
             margin:0%;
@@ -29,20 +29,20 @@
             z-index: -1;
             margin-left: 700px;
             object-fit: cover;
-           background-color: aquamarine;
+           background-color: rgb(252, 252, 252);
             padding-left: 28%;
         }
 
         #pills {
             position :absolute;
             z-index: -1;
-            left: -200px;
+            left: -550px;
             height: 600px;
-            background-color: aquamarine;
+            background-color: rgb(255, 255, 255);
         }
         h1{
             width : fit-content ;
-            border-bottom: 4px solid rgb(255,255,255);
+            border-bottom: 4px solid rgb(0, 0, 0);
             position: relative;
             top : 0%;
            /*background-color: aquamarine;*/ 
@@ -53,7 +53,7 @@
             font-family : Tahoma, sans-serif;
             font-size: 40px;
             height : 50%;
-            color : white;
+            color : rgb(0, 0, 0);
         }
         footer{
             padding-top : 27%;
@@ -90,23 +90,31 @@
             height: 2px;
             background-color: rgb(0, 0, 0);
             transform: scaleX(0);
-            transition: transform 0.3s ease-in-out;
-        }
+           transition: transform 0.5s ease-in-out; 
+        } 
 
         #documentation div a:hover::after {
              transform: scaleX(1);
-            }
+            transition: transform 0.1s ease-out;
+        }
 
         hr{
             transform: rotate(90deg);
             display: none;
         }
-
+        .images {
+            margin-left: 0;
+            margin-right: 0;
+            background-attachment: fixed;
+        }
     </style>
  </head>
     <body>
+        <div class="images">
+
         <img id="phone" src="phone-notification.png" alt="bannière" srcset="">
         <img id="pills" src="pills.png" alt="pills" srcset="">
+        </div>
         <center> 
             <div class="title">
             <h1>Pill Schedule</h1>  
