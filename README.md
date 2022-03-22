@@ -1,6 +1,6 @@
 # MOD4B-UML-Project
 
-https://shawnduhamel7.wixsite.com/umlproject
+our web site : https://shawnduhamel7.wixsite.com/umlproject
 
 Project realise by : 
 
