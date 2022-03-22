@@ -6,7 +6,7 @@ our app (java) git : https://github.com/Seeyozz/UMLConcordia
 
 Project realise by : 
 
-Pablo Ratouit 
-Shawn Duhamel 
-Benjamin Kalfa
-Victor Delaroque
+Pablo Ratouit <br>
+Shawn Duhamel <br>
+Benjamin Kalfa <br>
+Victor Delaroque 
